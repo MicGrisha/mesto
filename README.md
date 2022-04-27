@@ -7,4 +7,4 @@
 2. Сайт адоптирован под разрешения: 320, 1280 px
 3. Использовался grid 
 5. использовался js
-4. [Ссылка на проект] (https://micgrisha.github.io/russian-travel/index.html)
+4. [Ссылка на проект] (https://micgrisha.github.io/mesto/index.html)

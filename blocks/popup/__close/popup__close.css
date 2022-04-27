@@ -3,9 +3,8 @@
   margin: 0px;
   padding: 0px;
   z-index: 999;
-  border: none;
-  opacity: 1;
   border: 0;
+  opacity: 1;
   background: transparent;
   position: fixed;
   top: 45%;

@@ -1,0 +1,17 @@
+.popup__sav {
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  border: 0;
+  margin: 20% 0 10%;
+  padding-bottom: 5px;
+  cursor: pointer;
+  transition: opacity 0.4s;
+  background-color: #000000;
+  font-family: inherit;
+  color: white;
+}
+
+.popup__sav:hover {
+    opacity: .7;
+  }

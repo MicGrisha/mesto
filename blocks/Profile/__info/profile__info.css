@@ -1,0 +1,23 @@
+.profile__info {
+  width: 40%;
+  margin: 0px 0px 0px 3%;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  list-style: none;
+  position: relative;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media screen and (max-width: 688px) {
+  .profile__info {
+    width: 90%;
+    margin: 0px;
+  }
+}

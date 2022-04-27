@@ -1,0 +1,9 @@
+.popup__button {
+    position: fixed;
+    background-color: #ffffff;
+    border-radius: 10px;
+    top: 30%;
+    left: 35%;
+    z-index: 999;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+}

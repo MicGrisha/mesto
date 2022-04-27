@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mesto</title>
+    <link rel="stylesheet" href="fonts/inter.css" />
+    <link rel="stylesheet" href="pages/index.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <img class="header__logo" src="./image/logo.svg" alt="Логотип" />
+      <div class="header__line"></div>
+    </header>
+    <main class="content">
+      <section class="profile">
+        <img class="profile__avatar" src="./image/image.jpg" alt="Аватарка" />
+        <div class="profile__info">
+          <h1 class="profile__name">Жак-Ив Кусто</h1>
+          <p class="profile__data">Исследователь Калининграда</p>
+          <img
+            class="profile__edite-button"
+            src="./image/Rf.svg"
+            alt="Кнопка"
+          />
+        </div>
+        <div class="profile__add-button">
+          <img
+            class="profile__button-plus"
+            src="./image/Plus.svg"
+            alt="Кнопка"
+          />
+        </div>
+      </section>
+      <section class="elements">
+        <div class="element">
+          <img class="element__image" src="./image/IMG_1296.JPG" alt="фото" />
+          <div class="element__info">
+            <h3 class="element__name">Озеро хлебное</h3>
+            <img class="element__like" src="./image/like.svg" alt="Лайк" />
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" src="./image/IMG_0808.JPG" alt="фото" />
+          <div class="element__info">
+            <h3 class="element__name">Зеленоградск</h3>
+            <svg class="element__like"></svg>
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" src="./image/IMG_0934.JPG" alt="фото" />
+          <div class="element__info">
+            <h3 class="element__name">Зеленый лес</h3>
+            <img class="element__like" src="./image/like.svg" alt="Лайк" />
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" src="./image/IMG_0072.JPG" alt="фото" />
+          <div class="element__info">
+            <h3 class="element__name">Nordic Spa на берегу моря</h3>
+            <img class="element__like" src="./image/like.svg" alt="Лайк" />
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" src="./image/IMG_0519.JPG" alt="фото" />
+          <div class="element__info">
+            <h3 class="element__name">Куликово шторм</h3>
+            <img class="element__like" src="./image/like.svg" alt="Лайк" />
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" src="./image/IMG_9699.JPG" alt="фото" />
+          <div class="element__info">
+            <h3 class="element__name">Куршская коса</h3>
+            <img class="element__like" src="./image/like.svg" alt="Лайк" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">&#169; 2020 Mesto Russia</p>
+      <p></p>
+    </footer>
+
+    <div class="popup">
+      <div class="popup__container">
+        <button class="popup__close" type="button">
+          <svg class="popup__icon"></svg>
+        </button>
+        <form class="popup__form">
+          <h2 class="popup__title">Редактировать профиль</h2>
+          <fieldset class="popup__admin">
+            <p class="popup__field">
+              <label for="name"></label>
+              <input
+                class="popup__item"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Жак-Ив Кусто"
+              />
+            </p>
+            <p class="popup__field">
+              <label for="text"></label>
+              <input
+                class="popup__item"
+                type="text"
+                name="text"
+                id="text"
+                placeholder="Исследователь океана"
+              />
+            </p>
+            <button type="submit" class="popup__sav">Сохранить</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  <script src="./scripts/popup.js"></script>  
+  </body>
+</html>

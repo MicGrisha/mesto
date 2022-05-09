@@ -1,6 +1,7 @@
 .profile__button-plus {
     width: 10%;
     margin: auto;
+    
 }
 
 @media screen and (max-width: 688px) {

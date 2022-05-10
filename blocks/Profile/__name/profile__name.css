@@ -13,6 +13,8 @@
     font-size: 27px;
     line-height: 33px;
     text-align: center;
-    width: 100%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

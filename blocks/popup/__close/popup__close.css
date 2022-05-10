@@ -1,7 +1,7 @@
 .popup__close {
   width: 32px;
   margin: 0;
-  margin-left: 50%;
+  margin-left: 35%;
   padding: 0px;
   z-index: 999;
   border: 0;
@@ -14,10 +14,22 @@
   opacity: 0.6;
 }
 
-@media screen and (max-width: 688px) {
+@media screen and (max-width: 1152px) {
   .popup__close {
-    right: 5%;
-    top: 5%;
+    margin-left: 55%;
+  }
+  
+}
+
+@media screen and (max-width: 896px) {
+  .popup__close {
+    margin-left: 60%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .popup__close {
     width: 16px;
+    margin-left: 80%;
   }
 }

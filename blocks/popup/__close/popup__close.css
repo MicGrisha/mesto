@@ -1,9 +1,11 @@
 .popup__close {
   width: 32px;
   margin: 0;
-  margin-left: 35%;
-  padding: 0px;
+  padding: 0;
   z-index: 999;
+  position: absolute;
+  top: -30px; 
+  right: -30px; 
   border: 0;
   opacity: 1;
   background: transparent;

@@ -4,12 +4,11 @@
   padding: 0;
   z-index: 999;
   position: absolute;
-  top: -30px; 
-  right: -30px; 
+  top: -30px;
+  right: -30px;
   border: 0;
   opacity: 1;
   background: transparent;
-  
 }
 
 .popup__close:hover {
@@ -20,7 +19,6 @@
   .popup__close {
     margin-left: 55%;
   }
-  
 }
 
 @media screen and (max-width: 896px) {

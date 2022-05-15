@@ -3,4 +3,7 @@
   padding: 0;
   width: 12px;
   height: 12px;
+  background-image: url(../../../image/Rf.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }

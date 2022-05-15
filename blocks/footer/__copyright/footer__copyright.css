@@ -1,10 +1,18 @@
 .footer__copyright {
-    color: #545454;
-    margin: 0px 0px 0px 5%;
+  color: #545454;
+  margin: 0px;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 @media screen and (max-width: 688px) {
-    .footer__copyright {
-        margin: 0;
-    }
+  .footer__copyright {
+    margin: 0;
+  }
 }

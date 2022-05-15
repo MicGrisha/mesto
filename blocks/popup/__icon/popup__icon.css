@@ -1,6 +1,9 @@
 .popup__icon {
     margin: 0;
     width: 32px;
+    height: 32px;
     background-image: url(../../../image/CloseIcon.svg);
     background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
 }

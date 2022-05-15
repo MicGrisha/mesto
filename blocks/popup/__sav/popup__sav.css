@@ -1,6 +1,6 @@
 .popup__sav {
   width: 100%;
-  height: 40px;
+  height: 50px;
   font-size: 14px;
   border: 0;
   margin: 15% 0 10%;
@@ -9,8 +9,15 @@
   background-color: #000000;
   font-family: inherit;
   color: white;
+  border-radius: 2px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 .popup__sav:hover {
-    opacity: .7;
+    opacity: .8;
   }

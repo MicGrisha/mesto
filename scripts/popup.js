@@ -1,4 +1,4 @@
-const popupOpenBtn = document.querySelector(".profile__edite-button");
+const popupOpenBtn = document.querySelector(".profile__edit-button");
 const popup = document.querySelector(".popup");
 const popupCloseBtn = document.querySelector(".popup__close");
 
@@ -17,7 +17,7 @@ popup.addEventListener("click", function (event) {
 });
 
 function togglePopup(popupObject) {
-  popupObject.classList.toggle("popup__opened");
+  popupObject.classList.toggle("popup_opened");
 }
 
 

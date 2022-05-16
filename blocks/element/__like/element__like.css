@@ -3,6 +3,7 @@
     height: 19px;
     margin: 0 auto 0;
     background-image: url(../../../image/like.svg);
+    cursor: pointer;
 }
 
 .element__like:hover {

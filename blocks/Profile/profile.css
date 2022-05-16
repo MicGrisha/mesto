@@ -7,6 +7,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Inter', Arial, sans-serif;
+    position: relative;
 }
 
 @media screen and (max-width: 688px) {
@@ -15,6 +16,6 @@
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
-      margin-top: 10%;
+      margin-top: 42px;
     }
 }

@@ -2,9 +2,9 @@ const popupOpenBtn = document.querySelector(".profile__edit-button");
 const popup = document.querySelector(".popup");
 const popupCloseBtn = document.querySelector(".popup__close");
 
-popupOpenBtn.addEventListener("click", opendPopup);
+popupOpenBtn.addEventListener("click", () => opendPopup(popup));
 
-popupCloseBtn.addEventListener("click", closePopup);
+popupCloseBtn.addEventListener("click", () => closePopup(popup));
 
 function opendPopup(popupObject) {
   popupObject.classList.add("popup_opened");
@@ -26,14 +26,11 @@ function formSubmitHandler (evt) {
     document.getElementById('text').value
     document.querySelector('.profile__name').textContent = document.getElementById('name').value;
     document.querySelector('.profile__data').textContent = document.getElementById('text').value;
+    closePopup(popup)
 }
 formElement.addEventListener('submit', formSubmitHandler); 
 
 
-formElement.addEventListener("click", function (event) {
-  if (event.target == event.currentTarget) {
-    togglePopup(popup);
-  }
-});
+
 
 

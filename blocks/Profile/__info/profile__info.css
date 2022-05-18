@@ -1,9 +1,8 @@
 .profile__info {
-  width: 40%;
   margin: 0px 0px 0px 3%;
   padding: 0px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   align-self: center;
   list-style: none;
@@ -13,11 +12,12 @@
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  max-width: 45%;
 }
 
 @media screen and (max-width: 688px) {
   .profile__info {
-    width: 100%;
+    max-width: 80%;
     margin: 22px 0 0;
     flex-direction: column;
   }

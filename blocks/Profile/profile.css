@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: left;
     align-items: center;
-    margin: 0px;
+    margin: 36px 0 0;
     padding: 0px;
     font-family: 'Inter', Arial, sans-serif;
     position: relative;
@@ -13,6 +13,7 @@
 @media screen and (max-width: 688px) {
     .profile {
       width: 90%;
+      flex-direction: column;
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;

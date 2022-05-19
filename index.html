@@ -17,59 +17,82 @@
           <h1 class="profile__name">Жак-Ив Кусто</h1>
           <p class="profile__data">Исследователь океана</p>
         </div>
-        <div class="profile__edit-button" type="button">
-          <div
-          class="profile__popup" aria-label="кнопка"
-        /> </div>
-      </div>
-        <div class="profile__add-button" type="button">
-          <div
-            class="profile__button-plus"
-            aria-label="кнопка"
-          /></div>
-        </div>
+        <button
+          class="profile__edit-button profile__edit-button_transparent"
+          type="button"
+          aria-label="кнопка"
+        ></button>
+        <button
+          class="profile__add-button profile__button-plus"
+          type="button"
+          aria-label="кнопка"
+        ></button>
       </section>
       <section class="elements">
         <div class="element">
           <img class="element__image" src="./image/IMG_1296.JPG" alt="фото" />
           <div class="element__info">
             <h2 class="element__name">Озеро хлебное</h2>
-            <img class="element__like" src="./image/like.svg" alt="Лайк" type="button"/>
+            <button
+              class="element__like"
+              aria-label="Лайк"
+              type="button"
+            ></button>
           </div>
         </div>
         <div class="element">
           <img class="element__image" src="./image/IMG_0808.JPG" alt="фото" />
           <div class="element__info">
             <h2 class="element__name">Зеленоградск</h2>
-            <img class="element__like" src="./image/like.svg" alt="Лайк" type="button"/>
+            <button
+              class="element__like"
+              aria-label="Лайк"
+              type="button"
+            ></button>
           </div>
         </div>
         <div class="element">
           <img class="element__image" src="./image/IMG_0934.JPG" alt="фото" />
           <div class="element__info">
             <h2 class="element__name">Зеленый лес</h2>
-            <img class="element__like" src="./image/like.svg" alt="Лайк" type="button"/>
+            <button
+              class="element__like"
+              aria-label="Лайк"
+              type="button"
+            ></button>
           </div>
         </div>
         <div class="element">
           <img class="element__image" src="./image/IMG_0072.JPG" alt="фото" />
           <div class="element__info">
             <h2 class="element__name">Nordic Spa на берегу моря</h2>
-            <img class="element__like" src="./image/like.svg" alt="Лайк" type="button"/>
+            <button
+              class="element__like"
+              aria-label="Лайк"
+              type="button"
+            ></button>
           </div>
         </div>
         <div class="element">
           <img class="element__image" src="./image/IMG_0519.JPG" alt="фото" />
           <div class="element__info">
             <h2 class="element__name">Куликово шторм</h2>
-            <img class="element__like" src="./image/like.svg" alt="Лайк" type="button"/>
+            <button
+              class="element__like"
+              aria-label="Лайк"
+              type="button"
+            ></button>
           </div>
         </div>
         <div class="element">
           <img class="element__image" src="./image/IMG_9699.JPG" alt="фото" />
           <div class="element__info">
             <h2 class="element__name">Куршская коса</h2>
-            <img class="element__like" src="./image/like.svg" alt="Лайк" type="button"/>
+            <button
+              class="element__like"
+              aria-label="Лайк"
+              type="button"
+            ></button>
           </div>
         </div>
       </section>
@@ -80,32 +103,30 @@
 
     <div class="popup">
       <div class="popup__container">
-        <button class="popup__close" type="button">
-          <div class="popup__icon" aria-label="крестик"></div>
-        </button>
+        <button
+          class="popup__close popup__icon"
+          type="button"
+          aria-label="крестик"
+        ></button>
         <form class="popup__form" name="popup">
-          <h2 class="popup__title">Редактировать профиль</h2>
           <fieldset class="popup__admin">
-            <legend class="popup__field">
-              <label for="name"></label>
+            <legend class="popup__title">Редактировать профиль</legend>
+            <label for="name">
               <input
-                class="popup__item"
+                class="popup__item popup__field"
                 type="text"
                 name="name"
-                id="name" 
+                id="name"
                 placeholder="Жак-Ив Кусто"
-              />
-            </legend>
-            <legend class="popup__field">
-              <label for="text"></label>
+            /></label>
+            <label for="text">
               <input
-                class="popup__item"
+                class="popup__item popup__field"
                 type="text"
                 name="text"
                 id="text"
                 placeholder="Исследователь океана"
-              />
-            </legend>
+            /></label>
             <button type="submit" class="popup__sav">Сохранить</button>
           </fieldset>
         </form>

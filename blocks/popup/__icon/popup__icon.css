@@ -7,4 +7,35 @@
     background-size: cover;
     background-position: center;
     border: 0;
+    position: absolute;
+    top: 20%;
+    right: 32%;
 }
+
+@media screen and (max-width: 1380px) {
+    .popup__icon {
+      top: 25%;
+    }
+  }
+
+@media screen and (max-width: 1152px) {
+    .popup__icon {
+      top: 25%;
+      right: 25%;
+    }
+  }
+  
+  @media screen and (max-width: 896px) {
+    .popup__icon {
+      right: 20%;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .popup__icon {
+      width: 20px;
+      height: 20px;
+      top: 27%;
+      right: 5%;
+    }
+  }

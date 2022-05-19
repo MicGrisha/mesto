@@ -1,15 +1,5 @@
 .profile__button-plus {
-    width: 22px;
-    height: 22px;
-    margin: auto;
-    background-image: url(../../../image/Plus.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-@media screen and (max-width: 688px) {
-    .profile__button-plus {
-        width: 16px;
-        height: 16px;
-    }
+  background-image: url(../../../image/Plus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }

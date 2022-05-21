@@ -1,8 +1,7 @@
 .element__info {
   background-color: #ffffff;
   margin: 0px;
-  padding: 0px;
-  min-height: 79px;
+  padding: 25px 0 32px;
   display: flex;
   flex-direction: row;
   align-items: center;

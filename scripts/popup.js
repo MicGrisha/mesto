@@ -22,10 +22,10 @@ let profileData = document.querySelector('.profile__data');
 
 function formSubmitHandler (evt) {
     evt.preventDefault();
-    document.getElementById('name').value
-    document.getElementById('text').value
-    document.querySelector('.profile__name').textContent = document.getElementById('name').value;
-    document.querySelector('.profile__data').textContent = document.getElementById('text').value;
+    let nameInput = document.getElementById('name').value
+    let textInput = document.getElementById('text').value
+    let  saveNameInput = document.querySelector('.profile__name').textContent = document.getElementById('name').value;
+    let  savetextInput = document.querySelector('.profile__data').textContent = document.getElementById('text').value;
     closePopup(popup)
 }
 formElement.addEventListener('submit', formSubmitHandler); 

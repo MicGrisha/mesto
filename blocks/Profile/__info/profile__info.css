@@ -19,6 +19,5 @@
   .profile__info {
     max-width: 80%;
     margin: 22px 0 0;
-    flex-direction: column;
   }
 }

@@ -1,7 +1,9 @@
 .popup {
+  font-family: 'Inter', Arial, sans-serif;
   display: none;
   z-index: 97;
-  background-color: rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
   position: fixed;
   top: 0;
   right: 0;

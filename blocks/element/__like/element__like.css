@@ -8,7 +8,7 @@
   background-image: url(../../../image/like.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #FFFFFF;
+  background-color: transparent;
 }
 
 .element__like:hover {

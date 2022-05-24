@@ -8,15 +8,15 @@
 
 @import url(../blocks/content/content.css);
 
-@import url(../blocks/Profile/profile.css);
-@import url(../blocks/Profile/__avatar/profile__avatar.css);
-@import url(../blocks/Profile/__info/profile__info.css);
-@import url(../blocks/Profile/__add-button/profile__add-button.css);
-@import url(../blocks/Profile/__name/profile__name.css);
-@import url(../blocks/Profile/__data/profile__data.css);
-@import url(../blocks/Profile/__edit-button/profile__edit-button.css);
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__avatar/profile__avatar.css);
+@import url(../blocks/profile/__info/profile__info.css);
+@import url(../blocks/profile/__add-button/profile__add-button.css);
+@import url(../blocks/profile/__name/profile__name.css);
+@import url(../blocks/profile/__data/profile__data.css);
+@import url(../blocks/profile/__edit-button/profile__edit-button.css);
 
-@import url(../blocks/Elements/elements.css);
+@import url(../blocks/elements/elements.css);
 @import url(../blocks/element/element.css);
 @import url(../blocks/element/__info/element__info.css);
 @import url(../blocks/element/__like/element__like.css);
